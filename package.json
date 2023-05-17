@@ -1,23 +1,23 @@
 {
-    "name": "Readme-generator",
+    "name": "read-generator",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "script": {
         "test": "echo \"Error: no test specified\" && exit 1" 
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/jaredpel/Readme-generator"
-    },
-    "author": "",
-    "license": "ISC",
+    "keywords": [],
     "bugs": {
         "url": "https://github.com/jaredpel/Readme-generator"
     },
-    "homepage": "https://github.com/jaredpel/Readme-generator",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jaredpel/Readme-generator.git"
+    },
+    "author": "",
+    "license": "ISC",
     "dependencies": {
-        "inquirer": ""
-    }
-
+        "inquirer": "^8.2.4"
+    },
+    "homepage": "https://github.com/jaredpel/Readme-generator"
 }

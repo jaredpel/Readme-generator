@@ -57,6 +57,11 @@ const inquirer = require('inquirer');
         name: 'email',
     }
 ])
+.then((data) => {
+    const filename= data.title.replace('',"").toLowerCase()
+    fs.writeFile(`${filename}.md`, generateMarkdown(data), (err) => err ? 
+    console.error(err) : console.log("Your read me is generated"))
+})
 
 function init() { }
 
